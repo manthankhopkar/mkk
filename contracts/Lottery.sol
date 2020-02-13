@@ -18,6 +18,7 @@ contract Lottery {
 
     event Winner(
         uint256 _winningIndex
+        /// winner event
     );
 
     function enterLottery(string memory _name) public payable {
